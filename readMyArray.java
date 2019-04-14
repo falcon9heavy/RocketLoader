@@ -8,6 +8,14 @@ public class readMyArray {
     public static void main(String[] args) {
         vel();
         thrust();
+        Rocket rocket1 = new Rocket();
+        rocket1.setRocketName("Falcon9");
+        rocket1.setRocketMass(333400.0);
+        rocket1.setRocketThrust(1700000.0);
+        System.out.println(rocket1.getRocketName());
+        System.out.println(rocket1.getRocketMass());
+        System.out.println(rocket1.getRocketThrust());
+
     }
 
     static void vel(){
@@ -29,10 +37,4 @@ public class readMyArray {
             System.out.println(thrust[i]=i);
         }
     }
-
-    Rocket rocket1 = new Rocket();
-    Rocket rocket2 = new Rocket();
-    rocket1.setRocketName()
-
-
 }

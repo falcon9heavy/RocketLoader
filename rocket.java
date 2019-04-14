@@ -8,27 +8,27 @@ package com.company;
     Double rocket_mass;
     Double rocket_thrust;
 
-    String getRocket_name(){
+    String getRocketName(){
         return rocket_name;
     }
 
-    void setRocket_name(String rName){
+    void setRocketName(String rName){
         this.rocket_name = rName;
     }
 
-    Double getRocket_mass(){
+    Double getRocketMass(){
         return rocket_mass;
     }
 
-    void setRocket_mass(Double rMass) {
-        this.rocket_name = rMass;
+    void setRocketMass(Double rMass) {
+        this.rocket_mass = rMass;
     }
 
-    Double getRocket_thrust(){
+    Double getRocketThrust(){
         return rocket_thrust;
     }
 
-    void setRocket_thrust(Double rThrust) {
+    void setRocketThrust(Double rThrust) {
         this.rocket_thrust = rThrust;
     }
 }
